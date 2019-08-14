@@ -1,0 +1,11 @@
+<!-- Categories Jumbotron
+================================================== -->
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-9 flex-first flex-md-unordered text-center">
+			{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+			<a class="mt-1 mb-1" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+			{{ end }}
+		</div>
+	</div>
+</div>
