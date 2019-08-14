@@ -29,8 +29,8 @@ googleAnalytics = "UA-46298735-3"
   alertbar = false
 
 [params.social]
-  twitter = "<username>"
-  instagram = "<username>"
+  twitter = "pocketsboutique"
+#  instagram = "<username>"
 
 ## Main Menu
 #[[menu.main]]
